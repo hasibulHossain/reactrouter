@@ -1,0 +1,35 @@
+.Blog h1 {
+    text-align: center;
+}
+
+.sections {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1 {
+    font-size: 100px;
+    margin: 0px 0px 100px 0px;
+    padding: 50px;
+
+}
+
+.section-1 {
+    background-color: aquamarine;
+}
+
+.section-2 {
+    background-color: antiquewhite;
+}
+
+.section-3 {
+    background-color: tomato;
+}
+
+.section-4 {
+    background-color: yellow;
+}
