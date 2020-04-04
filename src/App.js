@@ -7,7 +7,7 @@ import Blog from './containers/Blog/Blog';
 class App extends Component {
   render() {
     return (
-      <Router hashType="noslash">     
+      <Router basename="/reactrouter">     
           <div className="App">
             <Navigation />
             <Blog />
