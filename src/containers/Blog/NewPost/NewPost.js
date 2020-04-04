@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {addPostRequest} from '../../../components/request/request';
+import {addPostRequest} from '../../../request';
 
 import './NewPost.css';
 
