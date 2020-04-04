@@ -1,5 +1,6 @@
 {
   "name": "react-complete-guide",
+  "homepage": "https://hasibulHossain.github.com/reactrouter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +48,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "preDeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
